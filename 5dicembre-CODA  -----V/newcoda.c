@@ -1,9 +1,4 @@
 
-
-/* Un array è una struttura di dati che consente di memorizzare una serie di elementi dello stesso tipo, 
-in posizioni di memoria contigue. Gli elementi dell'array sono identificati da un indice numerico, che parte da zero in molti linguaggi di programmazione (come il C e il C++).*/
-/*Una stringa è una sequenza di caratteri (come lettere, numeri, simboli) che termina con un carattere speciale chiamato \0 (carattere nullo). In C, una stringa è rappresentata 
-come un array di caratteri (char) con un carattere nullo ('\0') alla fine, che indica la fine della stringa.*/
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
