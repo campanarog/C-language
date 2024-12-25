@@ -122,7 +122,7 @@ int sparsify(double***A, int n , int m){
 }
 
 double* collect(double***A, int n , int m, int elementi){
-    double* B = malloc(sizeof(double)*elementi); // creo un array ed inserisco i valori non vuoti , ovvero elementi ...
+    double* B = malloc(sizeof(double)*elementi);
     if(B== NULL){
         fprintf(stderr,"Error\n");
         exit(EXIT_FAILURE);
