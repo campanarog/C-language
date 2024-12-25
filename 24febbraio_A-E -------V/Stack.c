@@ -86,7 +86,7 @@ void fillstack(nodo**head, params p){
             }else if(c == p.b){
                 c = '?';
             }
-            push(head, c); //Guardiamo push letteralmente come, "Ho tutto ? posso darlo in output e metterlo sullo stack?"
+            push(head, c); 
         }
         push(head, x);
     }
